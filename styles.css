@@ -1,0 +1,47 @@
+
+body{
+    background-color: black;
+    margin:0px;
+}
+div.brick{
+    background-color: blue;
+}
+
+div.row div{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+div.coin{
+    background: url('shocked.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.empty{
+    
+}
+div#packman{
+    background: url('packman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    visibility: hidden;
+}
+div#startScreen{
+
+    width: 30px;
+    height: 10px;
+    color: white;
+    padding:7px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left:220px;
+}
+div#infoBar{
+    color: white;
+}
